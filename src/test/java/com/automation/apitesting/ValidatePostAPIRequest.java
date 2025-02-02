@@ -57,9 +57,7 @@ public class ValidatePostAPIRequest extends BaseClass{
 		String check_in_date =  jsonPath.getString("bookingdates.checkin");
 		
 		System.out.println("The given booking ID : " + bookingId);
-		System.out.println("The Total Price for booking: " + total_price);
-		System.out.println("The check in date for given booking : " + check_in_date);
-		
+
 		
 			
 	}
